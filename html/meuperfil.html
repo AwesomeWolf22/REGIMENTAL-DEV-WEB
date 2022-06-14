@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/meuperfil.css">
+        <link rel="shortcut icon" type="image-x/png" href="../imagens/blood-test.ico">
+        <script type="text/javascript" src="../js/menu.js"></script>
+        <script type="text/javascript" src="../js/overlay.js"></script>
+        <title>Bom Sangue</title>
+    </head>
+    <body>
+
+
+        <div class="overlay" id="overlaySignUp">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSignUp()">&times;</a>
+
+
+            <div class="input-box overlay-content">
+                <form action="">
+                    <fieldset>
+                        <legend>Formulário de cadastro</legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="name" id="name" class="inputUser" required>
+                            <label for="name" class="labelInput">Nome completo</label>
+                        </div><!--inputBox-->
+                        
+                        <br>
+                        <div class="inputBox">
+                            <input type="email" name="email" id="email" class="inputUser" required>
+                            <label for="nome" class="labelInput">E-mail</label>
+                        </div><!--inputBox-->
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div><!--inputBox-->
+                        
+                        <br>
+                        <p> Sexo: </p>
+            
+                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <label class="radio" for="feminino">Feminino</label>
+                        <br>
+    
+                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <label class="radio" for="masculino">Masculino</label>
+                        <br>
+    
+                        <input type="radio" id="outro" name="genero" value="outro" required>
+                        <label class="radio" for="outro">Outro</label>
+                        
+                        
+    
+                        <br>
+                        <p> Cor: </p>
+                        <input type="radio" id="branca" name="cor" value="branca" required>
+                        <label class="radio" for="branca">Branca</label>
+                        <br>
+    
+                        <input type="radio" id="parda" name="cor" value="parda" required>
+                        <label class="radio" for="parda">Parda</label>
+                        <br>
+    
+                        <input type="radio" id="preta" name="cor" value="preta" required>
+                        <label class="radio" for="preta">Preta</label>
+                        <br>
+    
+                        <input type="radio" id="amarela" name="cor" value="amarela" required>
+                        <label class="radio" for="amarela">Amarela</label>
+    
+                        <br>
+                        <br>
+                    
+                        <label for="data_nascimento">Data de Nascimento:</label><br>
+                        <input class="radio" type="date" name="data_nascimento" id="data_nascimento" required>
+    
+                        
+                        <br>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="idade" id="idade" class="inputUser" required>
+                            <label for="idade" class="labelInput">Idade</label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="nacionalidade" id="nacionalidade" class="inputUser" required>
+                            <label for="nacionalidade" class="labelInput"> Nacionalidade </label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="cpf" id="cpf" class="inputUser" required>
+                            <label for="cpf" class="labelInput"> CPF </label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="rg" id="rg" class="inputUser" required>
+                            <label for="rg" class="labelInput"> RG </label>
+                        </div>
+                    
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="endreco" id="endreco" class="inputUser" required>
+                            <label for="endreco" class="labelInput"> Endereço </label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelInput">Cidade</label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                            <label for="bairro" class="labelInput">Bairro</label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="cep" id="cep" class="inputUser" required>
+                            <label for="cep" class="labelInput">CEP</label>
+                        </div>
+                        <br>
+                        <br>
+                        <input type="submit" nome="submit" id="submit"></input>
+                    </fieldset>
+                </form>
+    
+            </div><!--input-box-->
+
+        </div><!--overlay-->
+
+        <div class="overlay" id="overlayLogIn">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeLogIn()">&times;</a>
+
+
+            <div class="input-box overlay-content">
+                <form action="">
+                    <fieldset>
+                        <legend>Logar</legend>
+                        <br>
+                        
+                        <br>
+                        <div class="inputBox">
+                            <input type="email" name="email" id="email" class="inputUser" required>
+                            <label for="nome" class="labelInput">E-mail</label>
+                        </div><!--inputBox-->
+                        <br>
+                        <br>
+                        <div class="inputBox">
+                            <input type="password" name="password" id="password" class="inputUser" required>
+                            <label for="password" class="labelInput">Senha</label>
+                        </div><!--inputBox-->
+                        
+    
+                        <br>
+                        <br>
+                    
+                        <input type="submit" nome="submit" id="submit" value="Login"></input>
+                    </fieldset>
+                </form>
+    
+            </div><!--input-box-->
+
+        </div><!--overlay-->
+
+
+        <header>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="../index.html"><img src="../imagens/home.png">Home</a></li>
+                    <li><a href="sobrenos.html"><img src="../imagens/sinal-de-interrogacao.png">Sobre Nós</a></li>
+                    <li><a href="ondedoar.html"><img src="../imagens/maps-and-flags.png">Onde Doar?</a></li>
+                    <li><a href="meuperfil.html"><img src="../imagens/perfil.png">Meu Perfil</a></li>
+                </ul>
+            </nav><!--menu-desktop-->
+
+            <nav class="menu-mobile">
+                <img src="../imagens/menu.png" alt="menu" onclick="dropMenu()">
+                <ul id="myDropdown">
+                    <li><a href="../index.html"><img src="../imagens/home.png">Home</a></li>
+                    <li><a href="sobrenos.html"><img src="../imagens/sinal-de-interrogacao.png">Sobre Nós</a></li>
+                    <li><a href="ondedoar.html"><img src="../imagens/maps-and-flags.png">Onde Doar?</a></li>
+                    <li><a href="meuperfil.html"><img src="../imagens/perfil.png">Meu Perfil</a></li>
+                </ul>
+            </nav><!--menu-mobile-->
+
+        </header>
+
+        <section class="banner" style="background-image: url(../imagens/image01.jpg);"></section>
+
+        <section class="account">
+            <button onclick="openSignUp()">Registra-se</button>
+            <button onclick="openLogIn()">Login</button>
+        </section><!--account-->
+
+        <section class="article">
+            <div class="container">
+                <div class="text">
+                    <p>
+                        Parece que você não está logado em nenhuma conta, para usufruir de todos os beneficios precisamos 
+                        conhecer você melhor, registre-se ou faça login para desfrutar de todos os beneficios.
+                    </p>
+                    
+                </div><!--text-->
+            </div><!--container-->
+            
+        </section><!--article-->
+        
+        <section class="itens">
+            <div class="itens-wraper text">
+
+                <div class="item">
+                    <h1>Meia Entrada</h1>
+                    <img src="../imagens/meiaentrada.png" alt="Meia Entrada"><br>
+                    <label>200 pts</label><br>
+                    <button title="Trocar por Meia Entrada">Trocar</button>
+                </div><!--item-->
+
+                <div class="item">
+                    <h1>1 Mês de Netflix</h1>
+                    <img src="../imagens/netflix.png" alt="Netflix"><br>
+                    <label>400 pts</label><br>
+                    <button title="Trocar por 1 Mês de Netflix">Trocar</button>
+                </div><!--item-->
+
+                <div class="item">
+                    <h1>Descontos Imperdiveis</h1>
+                    <img src="../imagens/moedas.png" alt="Moedas"><br>
+                    <label>600 pts</label><br>
+                    <button title="Trocar por Descontos em Lojas Parceiras">Trocar</button>
+                </div><!--item-->
+
+                <div class="item">
+                    <h1>3 Meses de Bike Itaú</h1>
+                    <img src="../imagens/bike.png" alt="Bike"><br>
+                    <label>800 pts</label><br>
+                    <button title="Trocar por 3 Meses de Bike Itaú">Trocar</button>
+                </div><!--item-->
+
+                <div class="item">
+                    <h1>Vale Presentes</h1>
+                    <img src="../imagens/vale-presente.png" alt="Vale Presente"><br>
+                    <label>1000 pts</label><br>
+                    <button title="Trocar por Vales Presentes em Lojas e Apps Parceiros">Trocar</button>
+                </div><!--item-->
+
+                <div class="item">
+                    <h1>Cesta Básica</h1>
+                    <img src="../imagens/cesta.png" alt="Cesta Básica"><br>
+                    <label>1200 pts</label><br>
+                    <button title="Trocar por Uma Cesta Básica Completa">Trocar</button>
+                </div><!--item-->
+
+                <div class="clear"></div>
+            </div><!--itens.wraper-->
+        </section><!--itens-->
+
+        <footer>
+            <div class="container">
+                <h3>Bom Sangue</h3>
+                <div class="box">
+                    <label>Siga-nos em nossas redes sociais</label>
+                    <a href=""><img src="../imagens/facebook.png"></a>
+                    <a href=""><img src="../imagens/instagram.png"></a>
+                    <a href=""><img src="../imagens/twitter.png"></a>
+                </div><!--box-->
+                <label for="">Telefone: (11) 0000-0000</label>
+                <img src="../imagens/telefone.png">
+                <br>
+                <div class="box">
+                    <p>Segurança e Privacidade Copyright © 2022 | Bom Sangue.</p>
+                </div><!--box-->
+                <p>Doação de sangue: para quem doa são alguns minutos, para quem recebe é uma vida inteira.</p>
+            </div><!--container-->
+        </footer>
+    </body>
+</html>

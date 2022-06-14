@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/sobrenos.css">
+        <link rel="shortcut icon" type="image-x/png" href="../imagens/blood-test.ico">
+        <script type="text/javascript" src="../js/menu.js"></script>
+        <script type="text/javascript" src="../js/overlay.js"></script>
+        <title>Bom Sangue</title>
+    </head>
+    <body>
+
+        <div class="overlay" id="overlaySignUp">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSignUp()">&times;</a>
+
+
+            <div class="input-box overlay-content">
+                <form action="">
+                    <fieldset>
+                        <legend>Formulário de cadastro</legend>
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="name" id="name" class="inputUser" required>
+                            <label for="name" class="labelInput">Nome completo</label>
+                        </div><!--inputBox-->
+                        
+                        <br>
+                        <div class="inputBox">
+                            <input type="email" name="email" id="email" class="inputUser" required>
+                            <label for="nome" class="labelInput">E-mail</label>
+                        </div><!--inputBox-->
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                            <label for="telefone" class="labelInput">Telefone</label>
+                        </div><!--inputBox-->
+                        
+                        <br>
+                        <p> Sexo: </p>
+            
+                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <label class="radio" for="feminino">Feminino</label>
+                        <br>
+    
+                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <label class="radio" for="masculino">Masculino</label>
+                        <br>
+    
+                        <input type="radio" id="outro" name="genero" value="outro" required>
+                        <label class="radio" for="outro">Outro</label>
+                        
+                        
+    
+                        <br>
+                        <p> Cor: </p>
+                        <input type="radio" id="branca" name="cor" value="branca" required>
+                        <label class="radio" for="branca">Branca</label>
+                        <br>
+    
+                        <input type="radio" id="parda" name="cor" value="parda" required>
+                        <label class="radio" for="parda">Parda</label>
+                        <br>
+    
+                        <input type="radio" id="preta" name="cor" value="preta" required>
+                        <label class="radio" for="preta">Preta</label>
+                        <br>
+    
+                        <input type="radio" id="amarela" name="cor" value="amarela" required>
+                        <label class="radio" for="amarela">Amarela</label>
+    
+                        <br>
+                        <br>
+                    
+                        <label for="data_nascimento">Data de Nascimento:</label><br>
+                        <input class="radio" type="date" name="data_nascimento" id="data_nascimento" required>
+    
+                        
+                        <br>
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="idade" id="idade" class="inputUser" required>
+                            <label for="idade" class="labelInput">Idade</label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="nacionalidade" id="nacionalidade" class="inputUser" required>
+                            <label for="nacionalidade" class="labelInput"> Nacionalidade </label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="cpf" id="cpf" class="inputUser" required>
+                            <label for="cpf" class="labelInput"> CPF </label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="rg" id="rg" class="inputUser" required>
+                            <label for="rg" class="labelInput"> RG </label>
+                        </div>
+                    
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="endreco" id="endreco" class="inputUser" required>
+                            <label for="endreco" class="labelInput"> Endereço </label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                            <label for="cidade" class="labelInput">Cidade</label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="text" name="bairro" id="bairro" class="inputUser" required>
+                            <label for="bairro" class="labelInput">Bairro</label>
+                        </div>
+    
+                        <br>
+                        <div class="inputBox">
+                            <input type="number" name="cep" id="cep" class="inputUser" required>
+                            <label for="cep" class="labelInput">CEP</label>
+                        </div>
+                        <br>
+                        <br>
+                        <input type="submit" nome="submit" id="submit"></input>
+                    </fieldset>
+                </form>
+    
+            </div><!--input-box-->
+
+        </div><!--overlay-->
+
+        <div class="overlay" id="overlayLogIn">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeLogIn()">&times;</a>
+
+
+            <div class="input-box overlay-content">
+                <form action="">
+                    <fieldset>
+                        <legend>Logar</legend>
+                        <br>
+                        
+                        <br>
+                        <div class="inputBox">
+                            <input type="email" name="email" id="email" class="inputUser" required>
+                            <label for="nome" class="labelInput">E-mail</label>
+                        </div><!--inputBox-->
+                        <br>
+                        <br>
+                        <div class="inputBox">
+                            <input type="password" name="password" id="password" class="inputUser" required>
+                            <label for="password" class="labelInput">Senha</label>
+                        </div><!--inputBox-->
+                        
+    
+                        <br>
+                        <br>
+                    
+                        <input type="submit" nome="submit" id="submit" value="Login"></input>
+                    </fieldset>
+                </form>
+    
+            </div><!--input-box-->
+
+        </div><!--overlay-->
+
+        <header>
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="../index.html"><img src="../imagens/home.png">Home</a></li>
+                    <li><a href="sobrenos.html"><img src="../imagens/sinal-de-interrogacao.png">Sobre Nós</a></li>
+                    <li><a href="ondedoar.html"><img src="../imagens/maps-and-flags.png">Onde Doar?</a></li>
+                    <li><a href="meuperfil.html"><img src="../imagens/perfil.png">Meu Perfil</a></li>
+                </ul>
+            </nav><!--menu-desktop-->
+
+            <nav class="menu-mobile">
+                <img src="../imagens/menu.png" alt="menu" onclick="dropMenu()">
+                <ul id="myDropdown">
+                    <li><a href="../index.html"><img src="../imagens/home.png">Home</a></li>
+                    <li><a href="sobrenos.html"><img src="../imagens/sinal-de-interrogacao.png">Sobre Nós</a></li>
+                    <li><a href="ondedoar.html"><img src="../imagens/maps-and-flags.png">Onde Doar?</a></li>
+                    <li><a href="meuperfil.html"><img src="../imagens/perfil.png">Meu Perfil</a></li>
+                </ul>
+            </nav><!--menu-mobile-->
+        </header>
+
+        <section class="banner" style="background-image: url(../imagens/dev-banner.jpg);">
+        
+        </section>
+
+        <section class="account">
+            <button onclick="openSignUp()">Registra-se</button>
+            <button onclick="openLogIn()">Login</button>
+        </section><!--account-->
+
+        <section class="introducao">
+            <div class="container">
+                <div class="text">
+                    <h1>Sobre Nós</h1>
+                    <p>
+                        Somos os alunos <strong>Emerson Nascimento, Leonardo Ferreira, Mateus Wallat e Michael Masanet</strong> 
+                        do curso Analises e Desenvolvimento de Sistemas, Faculdade de Tecnologia 
+                        Carlos Drummond de Andrade. Tivemos a ideia de criar um site para facilitar o acesso 
+                        entre pessoas que tem o desejo de doar sangue nos hemocentros da Zona leste de São Paulo. 
+                        Assim incentivamos a doação de sangue e contribuindo para a salvação de diversas vidas, 
+                        conectando você doador para aqueles que mais precisam de você!
+                    </p>
+                    <div class="coluna">
+
+                        <div class="membro-wraper">
+                    
+                            <div class="imagem-pessoa" style="background-image: url(../imagens/fotomateus.jpeg);">
+                            </div><!--imagem-pessoa-->
+    
+                            <div class="text-wraper">
+    
+                                <h2> Mateus Wallat </h2>
+                                <p><a target="blank_" href="https://pt-br.facebook.com/mateus.wallat">@mateuswallat</a></p>
+    
+                            </div><!--text-wraper-->
+    
+                        </div><!--membro-wraper-->
+
+                        <div class="membro-wraper">
+
+                            <div class="imagem-pessoa" style="background-image: url(../imagens/fotomichael.jpg);">
+                            </div><!--imagem-pessoa-->
+    
+                            <div class="text-wraper">
+    
+                                <h2>Michael Masanet</h2>
+                                <p><a target="blank_" href="https://www.linkedin.com/in/michael-santos-masanet/">@michaelsantos</a></p>
+    
+                            </div><!--text-wraper-->
+                            
+                        </div><!--membro-wraper-->
+
+                    </div><!--coluna-->
+                    
+                    
+                    <div class="coluna">
+
+                        <div class="membro-wraper">
+
+                            <div class="imagem-pessoa" style="background-image: url(../imagens/fotoemerson.jpg);">
+                            </div><!--imagem-pessoa-->
+    
+                            <div class="text-wraper">
+                                
+                                <h2>Emerson Nascimento</h2>
+                                <p><a target="blank_" href="https://www.linkedin.com/in/emerson-nascimento-5a85171bb">@Emerson</a></p>
+    
+                            </div><!--text-wraper-->
+    
+                        </div><!--membro-wraper-->
+    
+                            
+                        <div class="membro-wraper">
+    
+                            <div class="imagem-pessoa" style="background-image: url(../imagens/fotoleonardo.jpg);">
+                            </div><!--imagem-pessoa-->
+    
+                            <div class="text-wraper">
+                                <h2>Leonardo Ferreira</h2>
+                                <p><a target="blank_" href="https://www.instagram.com/leoardoferreirog/">@Leonardofeerrira</a></p>
+                            </div><!--text-wraper-->
+    
+                            
+                        </div><!--membro-wraper-->
+
+                    </div><!--coluna-->
+                    <div class="clear"></div>
+                    
+                </div><!--text-->
+            </div><!--container-->
+        </section><!--introducao-->
+
+        <footer>
+            <div class="container">
+                <h3>Bom Sangue</h3>
+                <div class="box">
+                    <label>Siga-nos em nossas redes sociais</label>
+                    <a href=""><img src="../imagens/facebook.png"></a>
+                    <a href=""><img src="../imagens/instagram.png"></a>
+                    <a href=""><img src="../imagens/twitter.png"></a>
+                </div><!--box-->
+                <label for="">Telefone: (11) 0000-0000</label>
+                <img src="../imagens/telefone.png">
+                <br>
+                <div class="box">
+                    <p>Segurança e Privacidade Copyright © 2022 | Bom Sangue.</p>
+                </div><!--box-->
+                <p>Doação de sangue: para quem doa são alguns minutos, para quem recebe é uma vida inteira.</p>
+            </div><!--container-->
+        </footer>
+        
+        
+    </body>
+</html>
